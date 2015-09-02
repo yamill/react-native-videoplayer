@@ -9,6 +9,7 @@ A native ios video player component
 4. Whenever you want to use it within React Native code now you can:
 `var VideoPlayer = require('react-native-videoplayer');`
 
+<img src="screenshot.png" width="250">
 
 ## Usage
 
