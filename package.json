@@ -10,7 +10,9 @@
     "react-component",
     "react-native",
     "ios",
-    "clipboard"
+    "video",
+    "player",
+    "media"
   ],
   "peerDependencies": {
     "react-native": ">=0.5"
