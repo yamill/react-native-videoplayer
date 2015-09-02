@@ -1,7 +1,7 @@
 {
   "name": "react-native-videoplayer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A native ios video player component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,13 @@
     "react-native": ">=0.5"
   },
   "author": "Yamill Vallecillo <yamill@gmail.com> (github.com/yamill)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamill/react-native-videoplayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yamill/react-native-videoplayer/issues"
+  },
+  "homepage": "https://github.com/yamill/react-native-videoplayer#readme"
 }
