@@ -13,9 +13,24 @@ A native ios video player component
 ## Usage
 
 ```javascript
-<View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-  <VideoPlayer width={320} height={240} url="http://somevideourl.mp4"/>
+<View style={styles.container}>
+  <VideoPlayer style={styles.video} url="http://somevideourl.mp4"/>
 </View>
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  video: {
+    position: 'absolute',
+    top: 0, left: 0, right: 0, bottom: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent'
+  }
+});
 ```
 
 ## Attributes
