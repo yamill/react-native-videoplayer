@@ -1,6 +1,6 @@
 {
   "name": "react-native-videoplayer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A native ios video player component",
   "main": "index.js",
   "scripts": {

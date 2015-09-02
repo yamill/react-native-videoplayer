@@ -23,6 +23,12 @@
   
 }
 
+- (void)dealloc
+{
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
 - (void)setUrl:(NSString *)url {
   AVPlayerViewController *playerViewController = [[AVPlayerViewController alloc] init];
   
